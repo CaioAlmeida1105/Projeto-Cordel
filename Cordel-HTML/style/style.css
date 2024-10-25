@@ -1,0 +1,102 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+ 
+:root{
+    --font01: "Passion One";
+    --font02:  "Sriracha";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100%vh;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+    font-family: var(--font01);
+    padding-top: 5vh;
+    font-size: 50px;
+}
+
+header p{
+    color: white;
+    padding-bottom: 5vh;
+    font-size: 20px;
+}
+
+p > a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    text-align: center;
+}
+
+.normal{
+    background-color: white;
+    font-family: var(--font02);
+}
+
+.imagem{
+    background-color: gray;
+    font-family: var(--font02);
+    background-image: url(/Cordel-HTML/img/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.imagem2{
+    background-color: gray;
+    font-family: var(--font02);
+    background-image: url(/Cordel-HTML/img/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.normal>p{
+    padding: 30px;
+}
+
+.imagem>p{
+    padding: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.325);
+    display: inline-block;
+}
+.imagem2>p{
+    padding: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.325);
+    display: inline-block;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+footer>p{
+    color: white;
+    font-family: var(--font01);
+    padding: 1vh;
+}
